@@ -1,0 +1,38 @@
+.container h1{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+
+.images{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.single_image{
+	padding-right: 20px;
+}
+
+img:hover{
+	opacity: 0.5;
+	transition: 0.9s;
+
+}
+
+.single_image img{
+	width:350px;
+	height: 300px;
+	display: block;
+	cursor: pointer;
+	padding-bottom: 30px;
+}
+
+.images .single_image img:hover{
+	transform: scale(1:1);
+}
